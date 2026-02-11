@@ -161,3 +161,4 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
+github_row.py

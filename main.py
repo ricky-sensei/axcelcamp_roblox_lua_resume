@@ -26,6 +26,9 @@ def putQiitaArticle(title, markdown, path="article", id=""):
             "name": "Lua"
             },
             {
+            "name": "Luau"
+            },
+            {
             "name": "初心者"
             },
             {
@@ -55,9 +58,9 @@ def putQiitaArticle(title, markdown, path="article", id=""):
         return res
 
 if __name__ == "__main__":
-    with open("./article/変数.md", encoding="utf-8") as f:
+    with open("./article/post.md", encoding="utf-8") as f:
         lines = f.readlines()
     markdown = "".join(lines)
     markdown = replace_images_by_filename(markdown)
-    res = putQiitaArticle("luau①", markdown,"article", "").json()
+    res = putQiitaArticle("lines[0][2:-1]", markdown,"article", "").json()
     print(res)
