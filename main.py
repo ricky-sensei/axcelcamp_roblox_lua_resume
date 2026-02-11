@@ -26,20 +26,12 @@ def putQiitaArticle(title, markdown, path="article", id=""):
             "name": "Lua"
             },
             {
-            "name": "Luau"
-            },
-            {
-            "name": "初心者"
-            },
-            {
             "name": "小学生向け"
             },
             {
             "name": "中学生"
             },
-            {
-            "name": "高校生"
-            }
+
         ],
         "private": False,
         "coediting": False,
@@ -62,5 +54,5 @@ if __name__ == "__main__":
         lines = f.readlines()
     markdown = "".join(lines)
     markdown = replace_images_by_filename(markdown)
-    res = putQiitaArticle("lines[0][2:-1]", markdown,"article", "").json()
+    res = putQiitaArticle(lines[6][2:-1], markdown,"article", "").json()
     print(res)
