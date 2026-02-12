@@ -13,7 +13,7 @@
 以下のリンクはluaの細かい仕様が書いてある。最初は意味不明な言葉の羅列に感じるかもだけど、なにかわからないときに見てみると解決するかも。
 [lua公式ドキュメント(日本語)](https://inzkyk.xyz/lua_5_4/)
 [roblox クリエイターハブ](https://create.roblox.com/landing)
-[luau ドキュメント(roblox クリエイターハブ)]([https://](https://create.roblox.com/docs/ja-jp/luau)
+[luau ドキュメント(roblox クリエイターハブ)](https://create.roblox.com/docs/ja-jp/luau)
 
 
 # 大タイトル
