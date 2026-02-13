@@ -1,6 +1,7 @@
-local number = 0
+local lemon = true
+if lemon == true then
+    print(lemon)
+else
+    prin
 
-while number < 10 do
-    print(number .. "回目")
-    number = number + 1
 end
